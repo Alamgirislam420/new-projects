@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thakurgoan Polytechnic Website</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="container">
+        <nav>
+            <br>
+            <br>
+            <br>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Thakurgaon Polytechnic Instutute, Thakurgaon</h1>
+            <p>We offer 5 modern technologies, such as Architecture and Interior Design Technology, Computer Technology,
+                Food
+                Technology,<br> Refrigaration and Air-conditioning Technology and Mechatronics Technology.</p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+
+    <!------Course---- -->
+    <section class="course">
+      <h1>Courses We Offer</h1>
+      <p>Computer Technology, Food Technology, Architechture and Interior Design Technology <br> Refrigaration and Airconditioning Technology, Mechatronics Technology.  </p>
+
+      <div class="row">
+          <div class="course-col">
+              <h3>Computer Technology</h3>
+              <p>Definitions of computer technology. the activity of designing and constructing and programming computers. type of:
+              engineering, technology. the practical application of science to commerce or industry.</p>
+          </div>
+          <div class="course-col">
+              <h3>Food Technology</h3>
+              <p>Food technology is a branch of food science that deals with the production, preservation, quality control and research
+            and development of food products.</p>
+          </div>
+          <div class="course-col">
+              <h3>Architechture Technology</h3>
+              <p>Architecture engineers are the engineers that specialize in making buildings. Interior designers work with architects to
+            plan the layout of interiors for ...</p>
+          </div>
+          <div class="course-col">
+              <h3>Refrigaration and Airconditioning Technology</h3>
+              <p>Refrigeration refers to the process by which energy, in the form of heat, is removed from a low-temperature medium and
+            transferred to a high-temperature medium.</p>
+          </div>
+          <div class="course-col">
+              <h3>Mechatronics Technology</h3>
+              <p>As technology advances over time, various subfields of engineering have succeeded in both adapting and multiplying. The
+            intention of mechatronics is to .</p>
+          </div>
+    </div>
+    </section>
+
+    <!-- !----- campus---- -->
+
+    <section class="campus">
+        <h1>Our Polytechnic Campus</h1>
+        <p>Thakurgaon Polytechnic Instutute, Thakurgaon</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/polytechnic.jpg" alt="">
+            </div>
+            <div class="campus-col">
+                <img src="images/tip.jpg" alt="">
+            </div>
+            <div class="campus-col">
+                <img src="images/poly.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+<!-- !-----footer----- -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Gobinda Nagar, Thakurgaon Sadar,Thakurgaon</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+
+
+
+
+   <!-- -----javaScript for Toggle Menu---- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";    
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
